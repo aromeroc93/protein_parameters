@@ -7,3 +7,5 @@ Usage: `python3 prot-param.py`
 ## Log
 
 20230619 - Wrote the first version of the script and created the repo.
+
+20230704 - Added support to copy to clipboard. Needs extending.
