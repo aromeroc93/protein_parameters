@@ -17,7 +17,7 @@ def main():
         print("Extinction coefficient:", epsilon[0], "(reduced), ", epsilon[1], "(oxidized)", "\nAbs280nm (1g/l):", epsilon[0]/mw, " // ", epsilon[1]/mw)#, 1/(epsilon[0]/mw))
     print("Copied to clipboard!")
     # pyperclip.copy("Mw: ""%0.2f" % mw, "\nIP: ""%0.2f" % protein.isoelectric_point(), "\nExtinction coefficient:", epsilon[0], "(reduced), ", epsilon[1], "(oxidized)", "\nAbs280nm (1g/l):", epsilon[0]/mw, " // ", 1/(epsilon[0]/mw))
-    pyperclip.copy("Mw: ""%0.2f" % mw + "\nIP: " + str(protein.isoelectric_point()) + "\nAbs280nm (1mg/ml)(red/ox): " + str(epsilon[0]/mw) + " // " + str(epsilon[1]/mw))
+    pyperclip.copy("Mw: ""%0.2f" % mw + "\nIP: " + str(protein.isoelectric_point()) + "\nAbs280nm (1mg/ml) (red/ox): " + str(epsilon[0]/mw) + " // " + str(epsilon[1]/mw))
     
 if __name__ == "__main__":
     main()
